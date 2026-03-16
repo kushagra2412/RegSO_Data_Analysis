@@ -1,6 +1,10 @@
 # RegSO_Data_Analysis
 Spatial data analysis, at the RegSO level in Sweden to make spatial estimations for different municipalities.
 
+# Working code on data analysis are presented in two jupyter notebooks:
+# Regso_Data_Analysis.ipynb, analyses regso level data to calculate population density.
+# Buildings_Data_Analysis.ipynb, analyses buildings data to calculate buildings count and their associated footprints.
+
 # Extracting datasets from the WFS services, SCB "https://geodata.scb.se/geoserver/stat/wfs?service=wfs&version=1.1.0&request=GetCapabilities"
 To understand the type of datasets available in the WFS of SCB, Python library “OWSLib” is used to interact with geospatial web services.
 
